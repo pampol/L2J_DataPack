@@ -19,6 +19,7 @@
 package instances;
 
 import instances.CavernOfThePirateCaptain.CavernOfThePirateCaptain;
+import instances.CavernOfThePirateCaptain60.CavernOfThePirateCaptain60;
 import instances.ChambersOfDelusion.ChamberOfDelusionEast;
 import instances.ChambersOfDelusion.ChamberOfDelusionNorth;
 import instances.ChambersOfDelusion.ChamberOfDelusionSouth;
@@ -60,6 +61,7 @@ public final class InstanceLoader
 	private static final Class<?>[] SCRIPTS =
 	{
 		CavernOfThePirateCaptain.class,
+		CavernOfThePirateCaptain60.class,
 		CrystalCaverns.class,
 		DarkCloudMansion.class,
 		DisciplesNecropolisPast.class,
